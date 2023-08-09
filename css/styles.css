@@ -1998,6 +1998,17 @@ header .menu .btn:hover:after
     display: block;
 }
 
+.bottom_section .download .links img + img,
+.bottom_section .download .links a:hover img
+{
+    display: none;
+}
+
+.bottom_section .download .links a:hover img + img
+{
+    display: block;
+}
+
 
 .bottom_section .bg
 {
