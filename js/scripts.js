@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 				$('header .mob_menu_btn').removeClass('active')
 				$('body').removeClass('menu_open')
-				$('header .menu').removeClass('show')
+				$('.mob_menu').removeClass('show')
 
 				document.getElementById(anchor).scrollIntoView({
 					behavior: 'smooth',
@@ -104,23 +104,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 	// Моб. меню
-	$('header .mob_menu_btn').click((e) => {
+	$('header .mob_menu_btn, .mob_menu .close_btn').click((e) => {
 		e.preventDefault()
 
 		$('header .mob_menu_btn').toggleClass('active')
 		$('body').toggleClass('menu_open')
-		$('header .menu').toggleClass('show')
+		$('.mob_menu').toggleClass('show')
 	})
-
-
-	// Счётчик лайков
-	// const count = new CountUp('likesCount', {
-	// 	startVal: 700,
-	// 	duration: 2,
-	// 	onCompleteCallback: () => count.update(999)
-	// })
-
-	// count.update(999)
 
 
 	// Анимация чисел
