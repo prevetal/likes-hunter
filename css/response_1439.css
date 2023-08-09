@@ -1,0 +1,400 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 52px;
+    }
+
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        margin-bottom: 44px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 40px 0;
+    }
+
+
+    header .logo
+    {
+        margin-right: 80px;
+    }
+
+
+    header .menu > * + *
+    {
+        margin-left: 36px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 200px 0 120px;
+    }
+
+
+    .first_section .data
+    {
+        width: 548px;
+    }
+
+
+    .first_section .title span
+    {
+        margin-top: 8px;
+        padding: 4px 20px;
+    }
+
+
+    .first_section .desc .multiplication
+    {
+        line-height: 92px;
+
+        width: 96px;
+        height: 92px;
+    }
+
+
+    .first_section .desc .multiplication + *
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+
+    .first_section .desc .or
+    {
+        font-size: 28px;
+
+        margin-top: 4px;
+        padding: 8px 20px;
+    }
+
+
+    .first_section .download
+    {
+        margin-top: 80px;
+    }
+
+
+    .first_section .download .label
+    {
+        font-size: 20px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .first_section .image
+    {
+        bottom: -52px;
+
+        margin-right: -720px;
+
+        transform: scale(.85);
+    }
+
+
+
+    /*-------------
+        Reasons
+    -------------*/
+    .reasons
+    {
+        padding: 160px 0 100px;
+    }
+
+    .reasons:before,
+    .reasons:after
+    {
+        height: 80px;
+    }
+
+
+    .reasons .block_title
+    {
+        margin-bottom: -68px;
+    }
+
+    .reasons .block_title span
+    {
+        margin: 0 8px;
+        padding: 8px 20px;
+    }
+
+
+    .reasons .items
+    {
+        height: 800px;
+    }
+
+
+    .reasons .items .image
+    {
+        transform: scale(.85);
+    }
+
+
+    .reasons .items .item
+    {
+        font-size: 22px;
+
+        padding: 20px 24px;
+    }
+
+
+    .reasons .items .item1
+    {
+        top: 200px;
+
+        margin-right: 312px;
+    }
+
+    .reasons .items .item2
+    {
+        top: 200px;
+
+        margin-left: 312px;
+    }
+
+    .reasons .items .item3
+    {
+        margin-right: 340px;
+    }
+
+    .reasons .items .item4
+    {
+        margin-left: 340px;
+    }
+
+    .reasons .items .item5
+    {
+        top: 620px;
+
+        margin-right: 312px;
+    }
+
+
+    .reasons .items .item6
+    {
+        top: 620px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews
+    {
+        padding: 100px 0 40px;
+    }
+
+
+    .reviews .block_title
+    {
+        margin-bottom: 40px;
+    }
+
+    .reviews .block_title span
+    {
+        padding: 0 20px;
+    }
+
+
+    .reviews .review
+    {
+        padding: 40px;
+    }
+
+
+
+    /*-------------
+        Devices
+    -------------*/
+    .devices
+    {
+        padding: 220px 0;
+    }
+
+    .devices:before,
+    .devices:after
+    {
+        height: 80px;
+    }
+
+
+    .devices .block_title > * + *
+    {
+        margin-top: 20px;
+    }
+
+    .devices .block_title span
+    {
+        font-size: 44px;
+
+        padding: 8px 20px;
+    }
+
+
+
+    .devices .images
+    {
+        top: 132px;
+        right: 24px;
+
+        width: auto;
+        margin-right: 0;
+    }
+
+
+    .devices .images .img1 img,
+    .devices .images .img2 img
+    {
+        width: 200px;
+    }
+
+
+    .devices .images .img3 img
+    {
+        width: 368px;
+    }
+
+
+
+    /*-------------
+        Socials
+    -------------*/
+    .socials
+    {
+        padding-top: 80px;
+    }
+
+
+    .socials .title
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .socials .items > * + *
+    {
+        margin-left: 24px;
+    }
+
+
+    .socials .items img
+    {
+        width: 88px;
+        height: 88px;
+    }
+
+
+
+    /*--------------------
+        Bottom section
+    --------------------*/
+    .bottom_section
+    {
+        padding: 100px 0;
+    }
+
+
+    .bottom_section .data
+    {
+        width: 580px;
+    }
+
+
+    .bottom_section .title span
+    {
+        margin-top: 8px;
+        padding: 4px 20px;
+    }
+
+
+
+    .bottom_section .download
+    {
+        margin-top: 60px;
+    }
+
+
+    .bottom_section .download .label
+    {
+        font-size: 20px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .bottom_section .bg2
+    {
+        right: -88px;
+
+        width: 960px;
+        height: auto;
+        margin-right: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0;
+    }
+
+
+    footer .block_title
+    {
+        margin-bottom: 60px;
+    }
+
+
+    footer .item + .item
+    {
+        margin-left: 100px;
+    }
+
+
+    footer .item .val
+    {
+        font-size: 20px;
+    }
+
+
+    footer .copyright
+    {
+        margin-top: 60px;
+    }
+}

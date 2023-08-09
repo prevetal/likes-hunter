@@ -1,0 +1,331 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 40px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        margin-right: auto;
+    }
+
+
+    header .logo img
+    {
+        height: 50px;
+    }
+
+
+    header .menu > * + *
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 180px 0 80px;
+    }
+
+
+    .first_section .data
+    {
+        width: 416px;
+    }
+
+
+    .first_section .desc .multiplication
+    {
+        line-height: 80px;
+
+        width: 84px;
+        height: 80px;
+    }
+
+
+    .first_section .desc .multiplication + *
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .first_section .desc .or
+    {
+        font-size: 20px;
+    }
+
+    .first_section .desc .or .icon
+    {
+        width: 34px;
+        height: 34px;
+        margin-right: 16px;
+    }
+
+
+    .first_section .download
+    {
+        margin-top: 60px;
+    }
+
+    .first_section .download .label
+    {
+        font-size: 18px;
+    }
+
+
+    .first_section .image
+    {
+        bottom: -128px;
+
+        margin-right: -680px;
+
+        transform: scale(.55);
+    }
+
+
+
+    /*-------------
+        Reasons
+    -------------*/
+    .reasons
+    {
+        padding: 100px 0 48px;
+    }
+
+    .reasons:before,
+    .reasons:after
+    {
+        height: 48px;
+    }
+
+
+    .reasons .block_title
+    {
+        margin-bottom: -60px;
+    }
+
+
+    .reasons .items
+    {
+        height: 680px;
+    }
+
+
+    .reasons .items .image
+    {
+        position: absolute;
+        top: 0;
+        right: -40px;
+        bottom: 0;
+
+        margin: auto 0;
+
+        transform: scale(.6);
+    }
+
+
+    .reasons .items .count
+    {
+        top: 176px;
+    }
+
+
+    .reasons .items .item
+    {
+        padding: 16px 24px;
+    }
+
+    .reasons .items .item br
+    {
+        display: none;
+    }
+
+
+    .reasons .items .item1
+    {
+        top: 150px;
+        right: auto;
+        left: 0;
+
+        margin-right: auto;
+    }
+
+    .reasons .items .item2
+    {
+        top: 234px;
+        right: auto;
+        left: 0;
+
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+    .reasons .items .item2:before
+    {
+        clip-path: polygon(100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 0);
+    }
+
+    .reasons .items .item3
+    {
+        top: 318px;
+        right: auto;
+        left: 0;
+
+        margin-right: auto;
+    }
+
+    .reasons .items .item4
+    {
+        top: 402px;
+        right: auto;
+        left: 0;
+
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+    .reasons .items .item4:before
+    {
+        clip-path: polygon(100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 0);
+    }
+
+    .reasons .items .item5
+    {
+        top: 486px;
+        right: auto;
+        left: 0;
+
+        margin-right: auto;
+    }
+
+    .reasons .items .item6
+    {
+        top: 570px;
+        right: auto;
+        left: 0;
+
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+    .reasons .items .item6:before
+    {
+        clip-path: polygon(100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 0);
+    }
+
+
+
+    /*-------------
+        Devices
+    -------------*/
+    .devices
+    {
+        padding: 100px 0 0;
+    }
+
+    .devices:before,
+    .devices:after
+    {
+        height: 48px;
+    }
+
+
+    .devices .block_title > * + *
+    {
+        margin-top: 12px;
+    }
+
+    .devices .block_title span
+    {
+        font-size: 34px;
+    }
+
+
+    .devices .images
+    {
+        position: relative;
+        top: auto;
+        right: 0;
+
+        width: 100%;
+        margin-top: -80px;
+
+        justify-content: center;
+    }
+
+
+
+    /*-------------
+        Socials
+    -------------*/
+    .socials
+    {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+
+    .socials .sep
+    {
+        margin: 0 60px;
+    }
+
+
+    .socials .items > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+    .socials .items img
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+
+
+    /*--------------------
+        Bottom section
+    --------------------*/
+    .bottom_section
+    {
+        padding-top: 60px;
+    }
+
+
+    .bottom_section .download
+    {
+        margin-top: 60px;
+    }
+
+    .bottom_section .download .label
+    {
+        font-size: 18px;
+    }
+
+
+
+    .bottom_section .bg2
+    {
+        right: -180px;
+
+        width: 720px;
+    }
+}

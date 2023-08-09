@@ -1,0 +1,359 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 44px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 40px;
+    }
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 20px;
+        height: 22px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        height: 15px;
+    }
+
+    .swiper-pagination-bullet
+    {
+        width: 15px;
+        height: 15px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 200px 0 100px;
+    }
+
+
+    .first_section .data
+    {
+        width: 548px;
+    }
+
+
+    .first_section .desc .multiplication
+    {
+        line-height: 88px;
+
+        width: 92px;
+        height: 88px;
+    }
+
+
+    .first_section .desc .multiplication + *
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+    .first_section .desc .or
+    {
+        font-size: 24px;
+    }
+
+
+    .first_section .download
+    {
+        margin-top: 68px;
+    }
+
+
+    .first_section .image
+    {
+        bottom: -80px;
+
+        margin-right: -660px;
+
+        transform: scale(.65);
+    }
+
+
+
+    /*-------------
+        Reasons
+    -------------*/
+    .reasons
+    {
+        padding: 140px 0 80px;
+    }
+
+    .reasons:before,
+    .reasons:after
+    {
+        height: 60px;
+    }
+
+
+    .reasons .block_title
+    {
+        margin-bottom: -128px;
+    }
+
+
+    .reasons .items
+    {
+        height: 720px;
+    }
+
+
+    .reasons .items .image
+    {
+        transform: scale(.65);
+    }
+
+
+    .reasons .items .item
+    {
+        font-size: 20px;
+    }
+
+
+    .reasons .items .item1
+    {
+        top: 260px;
+
+        margin-right: 240px;
+    }
+
+    .reasons .items .item2
+    {
+        top: 260px;
+
+        margin-left: 240px;
+    }
+
+    .reasons .items .item3
+    {
+        top: 420px;
+
+        margin-right: 246px;
+    }
+
+    .reasons .items .item4
+    {
+        top: 420px;
+
+        margin-left: 246px;
+    }
+
+    .reasons .items .item5
+    {
+        top: 580px;
+
+        margin-right: 220px;
+    }
+
+    .reasons .items .item6
+    {
+        top: 580px;
+
+        margin-left: 168px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews
+    {
+        padding: 80px 0 40px;
+    }
+
+
+    .reviews .review
+    {
+        padding: 24px;
+    }
+
+
+    .reviews .review .rating
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .reviews .review .rating .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .reviews .review .author .photo
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+
+    .reviews .review .author .photo + *
+    {
+        width: calc(100% - 92px);
+    }
+
+
+    .reviews .review .author .name
+    {
+        font-size: 16px;
+    }
+
+
+    .reviews .review .author .date
+    {
+        font-size: 12px;
+
+        margin-top: 4px;
+    }
+
+
+
+    /*-------------
+        Devices
+    -------------*/
+    .devices
+    {
+        padding: 160px 0;
+    }
+
+    .devices:before,
+    .devices:after
+    {
+        height: 60px;
+    }
+
+
+    .devices .block_title > * + *
+    {
+        margin-top: 16px;
+    }
+
+    .devices .block_title span
+    {
+        font-size: 40px;
+    }
+
+
+    .devices .images
+    {
+        top: 108px;
+    }
+
+
+    .devices .images .img1 img,
+    .devices .images .img2 img
+    {
+        width: 148px;
+    }
+
+    .devices .images .img3 img
+    {
+        width: 300px;
+    }
+
+
+    .devices .images .img:after
+    {
+        width: 160px;
+        height: 10px;
+    }
+
+    .devices .images .img3:after
+    {
+        width: 240px;
+    }
+
+
+
+    /*-------------
+        Socials
+    -------------*/
+    .socials .items img
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+    /*--------------------
+        Bottom section
+    --------------------*/
+    .bottom_section
+    {
+        padding: 80px 0;
+    }
+
+
+    .bottom_section .data
+    {
+        width: 460px;
+    }
+
+
+
+    .bottom_section .bg2
+    {
+        right: -88px;
+
+        width: 800px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .block_title
+    {
+        margin-bottom: 48px;
+    }
+
+
+    footer .item + .item
+    {
+        margin-left: 80px;
+    }
+
+
+    footer .copyright
+    {
+        margin-top: 48px;
+    }
+}

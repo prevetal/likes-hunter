@@ -1,0 +1,65 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .image
+    {
+        margin-right: -800px;
+    }
+
+
+
+    /*-------------
+        Reasons
+    -------------*/
+    .reasons .items
+    {
+        height: 892px;
+    }
+
+
+    .reasons .items .item
+    {
+        font-size: 26px;
+
+        padding: 28px;
+    }
+
+    .reasons .items .item1
+    {
+        margin-right: 331px;
+    }
+
+    .reasons .items .item3
+    {
+        margin-right: 350px;
+    }
+
+    .reasons .items .item4
+    {
+        margin-left: 350px;
+    }
+
+    .reasons .items .item6
+    {
+        margin-left: 250px;
+    }
+
+
+    .reasons .items .image
+    {
+        transform: scale(.95);
+    }
+
+
+
+    /*--------------------
+        Bottom section
+    --------------------*/
+    .bottom_section .bg2
+    {
+        margin-right: -848px;
+    }
+}
