@@ -66,6 +66,12 @@
     }
 
 
+    .first_section .title .swiper
+    {
+        height: 52px;
+    }
+
+
     .first_section .desc .multiplication
     {
         line-height: 88px;
@@ -324,6 +330,12 @@
     .bottom_section .data
     {
         width: 460px;
+    }
+
+
+    .bottom_section .title .swiper
+    {
+        height: 52px;
     }
 
 

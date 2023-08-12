@@ -49,6 +49,12 @@
     }
 
 
+    .first_section .title .swiper
+    {
+        height: 48px;
+    }
+
+
     .first_section .desc .multiplication
     {
         line-height: 80px;
@@ -281,10 +287,10 @@
     }
 
 
-    .socials .sep
+    /* .socials .sep
     {
         margin: 0 60px;
-    }
+    } */
 
 
     .socials .items > * + *
@@ -307,6 +313,12 @@
     .bottom_section
     {
         padding-top: 60px;
+    }
+
+
+    .bottom_section .title .swiper
+    {
+        height: 48px;
     }
 
 

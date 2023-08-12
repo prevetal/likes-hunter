@@ -37,6 +37,12 @@
     }
 
 
+    .first_section .title .swiper
+    {
+        height: 40px;
+    }
+
+
     .first_section .image
     {
         bottom: -40px;
@@ -62,5 +68,15 @@
     .devices .images .img3 img
     {
         width: 224px;
+    }
+
+
+
+    /*--------------------
+        Bottom section
+    --------------------*/
+    .bottom_section .title .swiper
+    {
+        height: 40px;
     }
 }

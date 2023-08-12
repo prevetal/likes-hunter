@@ -66,9 +66,15 @@
     }
 
 
+    .first_section .title .swiper
+    {
+        height: 60px;
+        margin-top: 8px;
+    }
+
+
     .first_section .title span
     {
-        margin-top: 8px;
         padding: 4px 20px;
     }
 
@@ -330,6 +336,12 @@
     .bottom_section .data
     {
         width: 580px;
+    }
+
+
+    .bottom_section .title .swiper
+    {
+        height: 60px;
     }
 
 

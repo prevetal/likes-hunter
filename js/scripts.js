@@ -6,6 +6,44 @@ OVERLAY = document.querySelector('.overlay')
 
 
 document.addEventListener('DOMContentLoaded', function () {
+	// Смена слов в первом блоке
+	let firstSection = document.querySelector('.first_section .title .swiper')
+
+	if (firstSection) {
+		new Swiper('.first_section .title .swiper', {
+			loop: true,
+			speed: 500,
+			spaceBetween: 12,
+			slidesPerView: 1,
+			direction: 'vertical',
+			allowTouchMove: false,
+			autoplay: {
+				delay: 2000,
+				disableOnInteraction: false,
+			},
+		})
+	}
+
+
+	// Смена слов в нижнем блоке
+	let bottomSection = document.querySelector('.bottom_section .title .swiper')
+
+	if (bottomSection) {
+		new Swiper('.bottom_section .title .swiper', {
+			loop: true,
+			speed: 500,
+			spaceBetween: 12,
+			slidesPerView: 1,
+			direction: 'vertical',
+			allowTouchMove: false,
+			autoplay: {
+				delay: 2000,
+				disableOnInteraction: false,
+			},
+		})
+	}
+
+
 	// Карусель отзывов
 	const reviewsSliders = [],
 		reviews = document.querySelectorAll('.reviews .swiper')
