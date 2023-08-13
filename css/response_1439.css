@@ -56,7 +56,7 @@
     -------------------*/
     .first_section
     {
-        padding: 200px 0 120px;
+        padding: 180px 0 23px;
     }
 
 
@@ -106,14 +106,11 @@
 
     .first_section .download
     {
-        margin-top: 80px;
+        margin-top: 60px;
     }
-
 
     .first_section .download .label
     {
-        font-size: 20px;
-
         margin-bottom: 16px;
     }
 
@@ -329,7 +326,7 @@
     --------------------*/
     .bottom_section
     {
-        padding: 100px 0;
+        padding: 100px 0 6px;
     }
 
 
@@ -353,16 +350,8 @@
 
 
 
-    .bottom_section .download
-    {
-        margin-top: 60px;
-    }
-
-
     .bottom_section .download .label
     {
-        font-size: 20px;
-
         margin-bottom: 16px;
     }
 
@@ -381,18 +370,6 @@
     /*------------
         Footer
     ------------*/
-    footer
-    {
-        padding: 60px 0;
-    }
-
-
-    footer .block_title
-    {
-        margin-bottom: 60px;
-    }
-
-
     footer .item + .item
     {
         margin-left: 100px;

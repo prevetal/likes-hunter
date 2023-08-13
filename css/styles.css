@@ -529,7 +529,7 @@ header .menu .btn:hover:after
     position: relative;
     z-index: 5;
 
-    padding: 221px 0 150px;
+    padding: 221px 0 23px;
 }
 
 
@@ -641,7 +641,7 @@ header .menu .btn:hover:after
 
 .first_section .download
 {
-    margin-top: 109px;
+    margin-top: 84px;
 }
 
 
@@ -686,12 +686,52 @@ header .menu .btn:hover:after
 }
 
 
+.first_section .qr_codes
+{
+    margin-top: 15px;
+}
+
+
+.first_section .qr_codes .label
+{
+    font-size: 23px;
+
+    margin-bottom: 8px;
+}
+
+
+.first_section .qr_codes .row
+{
+    margin-bottom: -19px;
+    margin-left: -19px;
+}
+
+.first_section .qr_codes .row > *
+{
+    margin-bottom: 19px;
+    margin-left: 19px;
+
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+.first_section .qr_codes img
+{
+    display: block;
+
+    width: 111px;
+
+    border-radius: 10px;
+}
+
+
 .first_section .image
 {
     position: absolute;
     z-index: 3;
     right: 50%;
-    bottom: 30px;
+    bottom: 0;
 
     width: 873px;
     height: 752px;
@@ -770,11 +810,11 @@ header .menu .btn:hover:after
 {
     from
     {
-        transform: translate(-50%, -50%) scale(1);
+        transform: translate(-396px, -289px) scale(1);
     }
     to
     {
-        transform: translate(-50%, -50%) scale(1) rotate(15deg);
+        transform: translate(-396px, -289px) scale(1) rotate(15deg);
     }
 }
 
@@ -783,11 +823,11 @@ header .menu .btn:hover:after
 {
     from
     {
-        transform: translate(-50%, -50%) scale(1);
+        transform: translate(-423px, -313px) scale(1);
     }
     to
     {
-        transform: translate(-50%, -50%) scale(1) rotate(-360deg);
+        transform: translate(-423px, -313px) scale(1) rotate(-360deg);
     }
 }
 
@@ -848,6 +888,11 @@ header .menu .btn:hover:after
 .first_section .image.animating .bg
 {
     transform: translate(-396px, -289px) scale(1);
+}
+
+.first_section .image.animating .bg2
+{
+    transform: translate(-423px, -313px) scale(1);
 }
 
 
@@ -1930,7 +1975,7 @@ header .menu .btn:hover:after
     position: relative;
     z-index: 3;
 
-    padding: 143px 0 150px;
+    padding: 143px 0 6px;
 }
 
 
@@ -1996,7 +2041,7 @@ header .menu .btn:hover:after
 
 .bottom_section .download
 {
-    margin-top: 67px;
+    margin-top: 50px;
 }
 
 
@@ -2038,6 +2083,46 @@ header .menu .btn:hover:after
 .bottom_section .download .links a:hover img + img
 {
     display: block;
+}
+
+
+.bottom_section .qr_codes
+{
+    margin-top: 19px;
+}
+
+
+.bottom_section .qr_codes .label
+{
+    font-size: 23px;
+
+    margin-bottom: 8px;
+}
+
+
+.bottom_section .qr_codes .row
+{
+    margin-bottom: -19px;
+    margin-left: -19px;
+}
+
+.bottom_section .qr_codes .row > *
+{
+    margin-bottom: 19px;
+    margin-left: 19px;
+
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+.bottom_section .qr_codes img
+{
+    display: block;
+
+    width: 111px;
+
+    border-radius: 10px;
 }
 
 
@@ -2084,7 +2169,7 @@ footer
 {
     color: #f5f5fc;
 
-    padding: 75px 0 51px;
+    padding: 42px 0 60px;
 
     background: #202020;
 }
@@ -2105,7 +2190,7 @@ footer .block_title
     font-weight: 900;
 
     width: 100%;
-    margin-bottom: 82px;
+    margin-bottom: 26px;
 
     text-align: center;
 }

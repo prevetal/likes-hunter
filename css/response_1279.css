@@ -56,7 +56,7 @@
     -------------------*/
     .first_section
     {
-        padding: 200px 0 100px;
+        padding: 180px 0 60px;
     }
 
 
@@ -100,11 +100,17 @@
     }
 
 
+    .first_section .qr_codes
+    {
+        display: none;
+    }
+
+
     .first_section .image
     {
-        bottom: -80px;
+        bottom: -120px;
 
-        margin-right: -660px;
+        margin-right: -680px;
 
         transform: scale(.65);
     }
@@ -339,6 +345,12 @@
     }
 
 
+    .bottom_section .qr_codes
+    {
+        display: none;
+    }
+
+
 
     .bottom_section .bg2
     {
@@ -352,12 +364,6 @@
     /*------------
         Footer
     ------------*/
-    footer .block_title
-    {
-        margin-bottom: 48px;
-    }
-
-
     footer .item + .item
     {
         margin-left: 80px;
