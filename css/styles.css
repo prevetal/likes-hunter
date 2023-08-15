@@ -1813,15 +1813,15 @@ header .menu .btn:hover:after
 
     max-width: 100%;
 
-    animation-name: devicesAnimate;
+    /* animation-name: devicesAnimate;
     animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 }
 
 .devices .images .img2 img
 {
-    animation-delay: .5s;
+    /* animation-delay: .5s; */
 }
 
 .devices .images .img:after
@@ -1838,10 +1838,10 @@ header .menu .btn:hover:after
 
     content: '';
     transform: translateX(-50%);
-    animation-name: devicesShadowAnimate;
+    /* animation-name: devicesShadowAnimate;
     animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 
     opacity: .4;
     background: radial-gradient(50% 50.00% at 50% 50.00%, #202020 0%, rgba(32, 32, 32, .00) 100%);
@@ -1850,14 +1850,14 @@ header .menu .btn:hover:after
 
 .devices .images .img3 img
 {
-    animation-delay: 1s;
+    /* animation-delay: 1s; */
 }
 
 .devices .images .img3:after
 {
     width: 320px;
 
-    animation-delay: 1s;
+    /* animation-delay: 1s; */
 }
 
 
